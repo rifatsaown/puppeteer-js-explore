@@ -1,8 +1,13 @@
 {
+  "name": "web-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
   "dependencies": {
     "dotenv": "^16.4.5",
     "exceljs": "^4.4.0",
     "puppeteer": "^22.8.1"
-  },
-  "type": "module"
+  }
 }
