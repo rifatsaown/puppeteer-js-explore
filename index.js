@@ -11,9 +11,9 @@ const grabData = async (clientIDs) => {
 
     // Launch a new browser instance
     const browser = await puppeteer.launch({
-        headless: false, // Set headless to false for debugging
-        args: ['--start-maximized'], // Maximize the browser window
-        // // slowMo: 50, // Slow down Puppeteer operations by 50ms
+        // headless: false, // Set headless to false for debugging
+        // args: ['--start-maximized'], // Maximize the browser window
+        // // // slowMo: 50, // Slow down Puppeteer operations by 50ms
     });
 
     // Create a new page in the browser
